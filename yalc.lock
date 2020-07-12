@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "docspera-components": {
+      "signature": "2ddf0116e5448a24146c64a420f56d1b",
+      "file": true
+    }
+  }
+}

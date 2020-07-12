@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}:root{
+	--red: #FB021C;
+	--mediumRed: #E10F1C;
+	--darkRed: #C62039;
+	--purple:#64579A;
+	--darkBlue: #022546;
+	--mediumDarkBlue: #4767B7;
+	--mediumBlue: #2273BE;
+	--mediumLightBlue: #3CA7F9;
+	--blue: #058CF9;
+	--lightBlue: #A3EAFE;
+	--lighterBlue: #c6f3ff;
+	--faintBlue: #F3FFFF;
+	--transparentBlue: rgba(243, 255, 255, .3);
+	--shadowGrey: #A3A0A0;
+
+	// Patient Survey
+	--faintBlue: #F3FFFF;
+	--pGray: #727E89;
+	--palePurpleDark: #a0c6ff;
+	--palePurpleMedium: #CAE0F2;
+	--palePurpleLight: #CAE0F2;
+
+	// Intelligent Scheduling
+	--purpleDeep: #162B9B;
+	--purpleGray: #839EB7;
+	--purpleLightGray: #A8C6E2;
+	--lavender: #9399E2;
+	--bluePale: #E5F3FA;
+	--blueSky: #84C8FD;
+
+
+// Component Library Colors
+	--blueDark:			#022546;
+	--blackDark:			#343A40;
+	--blackDarkHover:		#485159;
+	--blueDocspera:		#0096FA;
+	--blueDocsperaHover:	#33AEFF;
+	--blueIntelHover:		#359EFA;
+	--blueFaint:			#EBFFFF;
+	--blueLight:			#A3EAFE;
+	--blueMedium:			#2273BE;
+	--blueMediumDark:		#4767B7;
+	--blueMediumLight:	#359EFA;
+	--goldPending:		#FFCC00;
+	--goldPendingHover:	#FFD940;
+	--greenSuccess:		#28A745;
+	--greenSuccessHover:	#2EBF4E;
+	--greyDark:			#646464;
+	--greyHighlight:		#EDEDED;
+	--greySecondary:		#6C757D;
+	--greySecondaryHover:	#818D96;
+	--greyShadow:			#A3A0A0;
+	--red:				#FB021C;
+	--redDangerHover:		#FF5264;
+	--redDark:			#C62039;
+	--whiteIce:			#F8F9FA;
+}
+
+
