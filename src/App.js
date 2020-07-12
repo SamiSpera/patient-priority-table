@@ -1,16 +1,15 @@
 import React from 'react';
-import Switch from './components/Switch/Switch'
-import SidePanel from './components/SidePanel/SidePanel'
+import { ContextProvider } from './context/Context'
 import Table from './components/Table/Table'
 import './App.scss';
 
 function App() {
 	return (
-		<div id='app'>
-			{/* <Switch/>
-			<SidePanel/> */}
-			<Table/>
-		</div>
+		<ContextProvider>
+			<div id='app'>
+				<Table/>
+			</div>
+		</ContextProvider>
 	)
 }
 
