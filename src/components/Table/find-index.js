@@ -3,6 +3,7 @@ import { clamp, distance } from '@popmotion/popcorn'
 const buffer = 5;
 
 const findIndex = (i, yOffset, positions) => {
+	console.log(i, 'i')
 	let target = i;
 	const { top, height } = positions[i];
 	const bottom = top + height;

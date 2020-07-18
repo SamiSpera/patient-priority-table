@@ -41,7 +41,8 @@ const reducer = (state, action) => {
 const initialState = {
 	isLoading: false,
 	error: null,
-	patients: null
+	patients: null,
+	policyPreference: "5efbb8e20e20780692fb71af"
 }
 
 // A C T I O N S

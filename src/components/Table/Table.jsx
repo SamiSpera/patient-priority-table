@@ -31,7 +31,9 @@ const Table = () => {
 	const moveItem = (i, dragOffset) => {
     const targetIndex = findIndex(i, dragOffset, positions)
     if (targetIndex !== i) {
-      setPatients(move(patients, i, targetIndex))
+			let patient = move(patients, i, targetIndex)
+			console.log(patient)
+      setPatients(patient)
     }
 	}
 	
